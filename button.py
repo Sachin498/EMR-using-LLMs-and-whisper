@@ -11,7 +11,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model = whisper.load_model("base")
 
 # OLLAMA endpoint and configuration
-OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
+OLLAMA_ENDPOINT = "http://127.0.0.1:11434/api/generate"
 OLLAMA_MODEL = "mistral:instruct"
 SYSTEM_PROMPT = "Generate an EMR from the given conversation."
 
