@@ -11,7 +11,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model = whisper.load_model("base")
 
 # OLLAMA endpoint and configuration
-OLLAMA_ENDPOINT = "https://12a5-2a02-a210-22c0-aa00-3091-4dbe-a3a9-ad49.ngrok-free.app/api/generate"
+OLLAMA_ENDPOINT = "https://0ad5-2a02-a210-22c0-aa00-4d8d-99f5-faa7-79e2.ngrok-free.app/api/generate"
 OLLAMA_MODEL = "mistral:instruct"
 SYSTEM_PROMPT = "Generate an EMR from the given conversation."
 
