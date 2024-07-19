@@ -84,7 +84,7 @@ The model names and parameters can be updated in EMRGeneratingApp.py
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-This work is licensed under a
+This work [EMR Generating App with LLMs and Whisper](https://github.com/Sachin498/EMR-using-LLMs-and-whisper)&copy; 2024 by Sachin Dhananjaya is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
