@@ -39,33 +39,33 @@ Download and install ollama from https://ollama.com/
 Open the terminal and install the model you want to use. For example:
 
 ```bash
-  ollama pull llama3
+ollama pull llama3
 ```
 You can see the installed models using 
 ```bash
-    ollama list
+ollama list
 ```
 Ensure you have Python installed. Then, install the required packages using the following command:
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Running the application
 In a terminal tab, enter the following command
 
 ```bash
-    ollama start 
+ollama start 
 ```
 or
 ```bash
-    ollama serve
+ollama serve
 ```
 
 In another tab, while in the same directory as the Repository, enter the command:
 
 ```bash
-    streamlit run EMRGeneratingApp.py 
+streamlit run EMRGeneratingApp.py 
 ```
 ## Instructions
 Users can either upload recordings of doctor-patient conversations or record them live during the visit. The side panel includes a drop-down menu to select the fields they want to extract from the conversation, with an option to add custom fields as needed. Users can also choose the output format, currently supporting text and JSON formats.
