@@ -13,7 +13,7 @@ This repository contains the code and resources for generating Electronic Medica
 
 - LLMs
 
-    Contains the code to run individual models on Ollama to generate EMRs from the transcripts
+    Contains the code to run individual models on Ollama to generate EMRs from the transcripts. More information is given in [readme](LLMs/README.md)
 
 - Results
 
@@ -23,9 +23,6 @@ This repository contains the code and resources for generating Electronic Medica
 
     Streamlit application for generating EMRs from audio transcripts.
 
-- EvaluateLLM.py
-
-    Script for evaluating the performance of different LLM models.
 
 
 

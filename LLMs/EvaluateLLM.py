@@ -37,11 +37,11 @@ def compute_metrics(ground_truth, llm_output):
     }
 
 # Load JSON files
-with open('./Results/Ground truth.json', 'r') as f:
+with open('../Results/Ground truth.json', 'r') as f:
     ground_truth_data = json.load(f)
 
 #Change file name accordingly
-with open('./Results/Llama3.json', 'r') as f:
+with open('../Results/Llama3.json', 'r') as f:
     llm_output_data = json.load(f)
 
 # Ensure the data is a list of records
