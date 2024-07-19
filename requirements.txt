@@ -1,5 +1,8 @@
-streamlit==1.16.0
-whisper==1.1.0
-requests==2.26.0
-torch==1.9.0
-streamlit-mic-recorder==0.1.0
+streamlit
+whisper
+requests
+torch
+streamlit-mic-recorder
+numpy
+scikit-learn
+Levenshtein
