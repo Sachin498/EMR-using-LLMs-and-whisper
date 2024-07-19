@@ -4,7 +4,7 @@ This repository contains files and instructions for running and evaluating indiv
 
 ## Dataset and Ground Truth
 
-The ground truth data is manually annotated by the author and is based on 50 transcripts found in the [transcripts folder](../Audio Transcripts).
+The ground truth data is manually annotated by the author and is based on 50 transcripts found in the [transcripts folder](../Audio%20Transcripts).
 he entire dataset for these transcripts can be accessed at [Springer Nature's Figshare collection](https://springernature.figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842/1)
 
 ## Prerequisites
